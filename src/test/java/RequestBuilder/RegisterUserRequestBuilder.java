@@ -4,8 +4,8 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 import static Commons.GenerateTestData.*;
-import static Commons.Paths.BASE_URL;
-import static Commons.Paths.REGISTER_PATH;
+import static Commons.BasePaths.BASE_URL;
+import static Commons.BasePaths.REGISTER_PATH;
 import static PayloadBuilder.RegisterUserPayload.registerUserPayload;
 
 public class RegisterUserRequestBuilder {

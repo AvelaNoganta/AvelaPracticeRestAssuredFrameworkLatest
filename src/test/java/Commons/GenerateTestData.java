@@ -21,7 +21,12 @@ public class GenerateTestData {
     }
 
     public static String generatePassword() {
-        return faker.internet().password(8, 16, true, true);
+        String password;
+        String specialChars = "!@#$%^&*";
+        do {
+            password = faker.internet().password(8, 16, true, true);
+        } while (!password.matches(".*[!@#$%^&*].*"));
+        return password;
     }
 
     public static String GroupID  = "0321f54a-64e2-4dbf-acf6-ab9614738149";

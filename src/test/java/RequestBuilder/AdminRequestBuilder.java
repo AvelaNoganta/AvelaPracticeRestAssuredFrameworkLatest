@@ -5,7 +5,7 @@ import io.restassured.response.Response;
 
 import static Commons.GenerateTestData.adminEmail;
 import static Commons.GenerateTestData.adminPassword;
-import static Commons.Paths.*;
+import static Commons.BasePaths.*;
 import static PayloadBuilder.AdminPayload.adminLoginPayload;
 
 public class AdminRequestBuilder {

@@ -1,6 +1,6 @@
 package Commons;
 
-public class Paths {
+public class BasePaths {
     public static final String BASE_URL = "https://www.ndosiautomation.co.za/APIDEV";
     
     // Authentication endpoints
